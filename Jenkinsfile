@@ -1,6 +1,6 @@
-@library("belajar-jenkins-shared-library@master")
+@library("belajar-jenkins-shared-library@master") _
 
-pipeline {
+pipeline{
 
     agent any
 
