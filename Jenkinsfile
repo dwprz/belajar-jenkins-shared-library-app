@@ -8,7 +8,7 @@ pipeline{
         stage("Hello World"){
             steps{
                 script{
-                  hello.hello() // hello.hello() artinya memanggil file hello.groovy dan function hello() di repository belajar-jenkins-shared-library
+                  hello.world() // hello.hello() artinya memanggil file hello.groovy dan function world() di repository belajar-jenkins-shared-library
                 }
             }
         }
