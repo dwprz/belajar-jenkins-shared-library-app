@@ -12,6 +12,14 @@ pipeline{
                 }
             }
         }
+        stage("Author") {
+            steps{
+                script{
+                    author.name()
+                    author.title()
+                }
+            }
+        }
     }
     post{
         always{
