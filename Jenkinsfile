@@ -1,4 +1,4 @@
-@library("belajar-jenkins-shared-library@master") _
+@Library("belajar-jenkins-shared-library@master") _
 
 pipeline{
 
