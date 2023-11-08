@@ -12,11 +12,11 @@ pipeline{
                 }
             }
         }
-        stage("Author") {
+        stage("Global Variable") {
             steps{
                 script{
-                    author.name()
-                    author.title()
+                    echo(author.name())
+                    echo(author.title())
                 }
             }
         }
