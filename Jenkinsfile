@@ -5,7 +5,7 @@ pipeline{
     agent any
 
     stages{
-        stage("Library Resources"){
+        stage("Library Resource"){
             steps{
                 script{
                     def config = libraryResource("config/build.json")
