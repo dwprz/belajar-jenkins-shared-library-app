@@ -5,10 +5,13 @@ pipeline{
     agent any
 
     stages{
-        stage("Maven Compile"){
+        stage("Hello Person"){
             steps{
                 script{
-                  maven(["clean", "compile", "test"])
+                  hello.person([
+                    "firstName": "Kongleong",
+                    "lastName": "Poseidon"
+                  ])
                 }
             }
         }
